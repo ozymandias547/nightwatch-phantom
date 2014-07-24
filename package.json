@@ -1,0 +1,32 @@
+{
+  "name": "nightwatch-phantom",
+  "version": "0.0.0",
+  "description": "Nightwatch E2E testing baked together with phantomJS",
+  "main": "index.js",
+  "dependencies": {
+    "phantomjs": "^1.9.7-15",
+    "nightwatch": "^0.5.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozymandias547/nightwatch-phantom.git"
+  },
+  "keywords": [
+    "testing",
+    "nightwatch",
+    "phantom",
+    "phantomjs",
+    "e2e",
+    "E2E"
+  ],
+  "author": "Joseph Jung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozymandias547/nightwatch-phantom/issues"
+  },
+  "homepage": "https://github.com/ozymandias547/nightwatch-phantom"
+}
