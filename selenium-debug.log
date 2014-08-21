@@ -1,107 +1,108 @@
-Aug 21, 2014 2:25:30 AM org.openqa.grid.selenium.GridLauncher main
+Aug 21, 2014 2:33:48 AM org.openqa.grid.selenium.GridLauncher main
 INFO: Launching a standalone server
 Setting system property webdriver.chrome.driver to ./node_modules/.bin/chromedriver
-02:25:30.415 INFO - Java: Apple Inc. 20.65-b04-462
-02:25:30.416 INFO - OS: Mac OS X 10.9.3 x86_64
-02:25:30.424 INFO - v2.38.0, with Core v2.38.0. Built from revision bd32d4e
-02:25:30.487 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
-02:25:30.513 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5555/wd/hub
-02:25:30.514 INFO - Version Jetty/5.1.x
-02:25:30.514 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
-02:25:30.515 INFO - Started HttpContext[/selenium-server,/selenium-server]
-02:25:30.515 INFO - Started HttpContext[/,/]
-02:25:30.544 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@a210b5b
-02:25:30.544 INFO - Started HttpContext[/wd,/wd]
-02:25:30.548 INFO - Started SocketListener on 0.0.0.0:5555
-02:25:30.548 INFO - Started org.openqa.jetty.jetty.Server@7a148bd3
-02:25:30.759 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=phantomjs, phantomjs.binary.path=/Users/jgjung/Documents/Development/projects/nightwatch-phantom/node_modules/phantomjs/lib/phantom/bin/phantomjs}]] at URL: /session)
-02:25:30.767 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=phantomjs, phantomjs.binary.path=/Users/jgjung/Documents/Development/projects/nightwatch-phantom/node_modules/phantomjs/lib/phantom/bin/phantomjs}]
-02:25:30.774 INFO - executable: /Users/jgjung/Documents/Development/projects/nightwatch-phantom/node_modules/phantomjs/lib/phantom/bin/phantomjs
-02:25:30.774 INFO - port: 29906
-02:25:30.774 INFO - arguments: [--webdriver=29906, --webdriver-logfile=/Users/jgjung/Documents/Development/projects/nightwatch-phantom/phantomjsdriver.log]
-02:25:30.775 INFO - environment: {}
+02:33:48.654 INFO - Java: Apple Inc. 20.65-b04-462
+02:33:48.655 INFO - OS: Mac OS X 10.9.3 x86_64
+02:33:48.662 INFO - v2.38.0, with Core v2.38.0. Built from revision bd32d4e
+02:33:48.722 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: MAC
+02:33:48.749 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:5555/wd/hub
+02:33:48.750 INFO - Version Jetty/5.1.x
+02:33:48.750 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+02:33:48.751 INFO - Started HttpContext[/selenium-server,/selenium-server]
+02:33:48.751 INFO - Started HttpContext[/,/]
+02:33:48.780 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@a210b5b
+02:33:48.780 INFO - Started HttpContext[/wd,/wd]
+02:33:48.784 INFO - Started SocketListener on 0.0.0.0:5555
+02:33:48.784 INFO - Started org.openqa.jetty.jetty.Server@7a148bd3
+02:33:48.996 INFO - Executing: [new session: Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=phantomjs, phantomjs.binary.path=/Users/jgjung/Documents/Development/projects/testtest/node_modules/phantomjs/lib/phantom/bin/phantomjs}]] at URL: /session)
+02:33:49.003 INFO - Creating a new session for Capabilities [{platform=ANY, javascriptEnabled=true, acceptSslCerts=true, browserName=phantomjs, phantomjs.binary.path=/Users/jgjung/Documents/Development/projects/testtest/node_modules/phantomjs/lib/phantom/bin/phantomjs}]
+02:33:49.010 INFO - executable: /Users/jgjung/Documents/Development/projects/testtest/node_modules/phantomjs/lib/phantom/bin/phantomjs
+02:33:49.011 INFO - port: 17637
+02:33:49.011 INFO - arguments: [--webdriver=17637, --webdriver-logfile=/Users/jgjung/Documents/Development/projects/testtest/phantomjsdriver.log]
+02:33:49.011 INFO - environment: {}
 PhantomJS is launching GhostDriver...
-[INFO  - 2014-08-21T07:25:32.443Z] GhostDriver - Main - running on port 29906
-[INFO  - 2014-08-21T07:25:32.560Z] Session [55e3fbd0-2904-11e4-adea-e166cf580463] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34","webSecurityEnabled":true}
-[INFO  - 2014-08-21T07:25:32.560Z] Session [55e3fbd0-2904-11e4-adea-e166cf580463] - page.customHeaders:  - {}
-[INFO  - 2014-08-21T07:25:32.560Z] Session [55e3fbd0-2904-11e4-adea-e166cf580463] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.7","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2014-08-21T07:25:32.560Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 55e3fbd0-2904-11e4-adea-e166cf580463
-02:25:32.602 INFO - Done: /session
-02:25:32.610 INFO - Executing: [get: http://www.isobar.com/] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/url)
-02:25:36.039 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/url
-02:25:36.046 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+[INFO  - 2014-08-21T07:33:50.199Z] GhostDriver - Main - running on port 17637
+[INFO  - 2014-08-21T07:33:50.306Z] Session [7e91fef0-2905-11e4-b4d6-5ff969ac2423] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-08-21T07:33:50.306Z] Session [7e91fef0-2905-11e4-b4d6-5ff969ac2423] - page.customHeaders:  - {}
+[INFO  - 2014-08-21T07:33:50.306Z] Session [7e91fef0-2905-11e4-b4d6-5ff969ac2423] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.7","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-unknown-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-08-21T07:33:50.306Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7e91fef0-2905-11e4-b4d6-5ff969ac2423
+02:33:50.343 INFO - Done: /session
+02:33:50.354 INFO - Executing: [get: http://www.isobar.com/] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/url)
+02:33:53.791 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/url
+02:33:53.798 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
     return {
       jquery : typeof window.$
     }
 
-  }.apply(window, passedArgs);, []] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/execute)
-02:25:36.057 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/execute
-02:25:36.062 INFO - Executing: [find element: By.selector: #page] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.086 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.090 INFO - Executing: [is displayed: 0 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #page]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/0/displayed)
-02:25:36.107 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/0/displayed
-02:25:36.111 INFO - Executing: [set window size] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/window/current/size)
-02:25:36.118 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/window/current/size
-02:25:36.120 INFO - Executing: [find element: By.selector: #about-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.145 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.148 INFO - Executing: [is displayed: 1 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #about-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/1/displayed)
-02:25:36.189 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/1/displayed
-02:25:36.193 INFO - Executing: [find element: By.selector: #about-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.209 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.212 INFO - Executing: [click: 1 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #about-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/1/click)
-02:25:36.262 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/1/click
-02:25:36.264 INFO - Executing: [find element: By.selector: #about] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.274 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.276 INFO - Executing: [is displayed: 2 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #about]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/2/displayed)
-02:25:36.292 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/2/displayed
-02:25:36.294 INFO - Executing: [find element: By.selector: #work-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.304 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.306 INFO - Executing: [is displayed: 3 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #work-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/3/displayed)
-02:25:36.318 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/3/displayed
-02:25:36.320 INFO - Executing: [find element: By.selector: #work-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.330 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.332 INFO - Executing: [click: 3 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #work-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/3/click)
-02:25:36.379 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/3/click
-02:25:36.382 INFO - Executing: [find element: By.selector: #work] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.392 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.395 INFO - Executing: [is displayed: 4 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #work]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/4/displayed)
-02:25:36.406 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/4/displayed
-02:25:36.408 INFO - Executing: [find element: By.selector: #insights-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.418 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.420 INFO - Executing: [is displayed: 5 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #insights-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/5/displayed)
-02:25:36.456 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/5/displayed
-02:25:36.459 INFO - Executing: [find element: By.selector: #insights-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.468 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.472 INFO - Executing: [click: 5 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #insights-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/5/click)
-02:25:36.513 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/5/click
-02:25:36.515 INFO - Executing: [find element: By.selector: #insights] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.525 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.527 INFO - Executing: [is displayed: 6 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #insights]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/6/displayed)
-02:25:36.543 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/6/displayed
-02:25:36.545 INFO - Executing: [find element: By.selector: #careers-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.554 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.556 INFO - Executing: [is displayed: 7 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #careers-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/7/displayed)
-02:25:36.568 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/7/displayed
-02:25:36.570 INFO - Executing: [find element: By.selector: #careers-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.581 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.583 INFO - Executing: [click: 7 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #careers-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/7/click)
-02:25:36.633 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/7/click
-02:25:36.635 INFO - Executing: [find element: By.selector: #careers] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.645 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.647 INFO - Executing: [is displayed: 8 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #careers]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/8/displayed)
-02:25:36.658 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/8/displayed
-02:25:36.661 INFO - Executing: [find element: By.selector: #contact-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.670 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.673 INFO - Executing: [is displayed: 9 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #contact-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/9/displayed)
-02:25:36.684 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/9/displayed
-02:25:36.686 INFO - Executing: [find element: By.selector: #contact-nav-link a] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.776 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.778 INFO - Executing: [click: 9 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #contact-nav-link a]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/9/click)
-02:25:36.820 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/9/click
-02:25:36.823 INFO - Executing: [find element: By.selector: #contact_page] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element)
-02:25:36.833 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element
-02:25:36.835 INFO - Executing: [is displayed: 10 [[PhantomJSDriver: phantomjs on MAC (55e3fbd0-2904-11e4-adea-e166cf580463)] -> css selector: #contact_page]] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/10/displayed)
-02:25:36.850 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569/element/10/displayed
-02:25:36.853 INFO - Executing: [delete session: 162f248e-6e1d-4d51-b6ee-029913bec569] at URL: /session/162f248e-6e1d-4d51-b6ee-029913bec569)
-[INFO  - 2014-08-21T07:25:36.869Z] ShutdownReqHand - _handle - About to shutdown
-02:25:37.422 INFO - Done: /session/162f248e-6e1d-4d51-b6ee-029913bec569
+  }.apply(window, passedArgs);, []] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/execute)
+02:33:53.809 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/execute
+02:33:53.815 INFO - Executing: [find element: By.selector: #page] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:53.836 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:53.840 INFO - Executing: [is displayed: 0 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #page]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/0/displayed)
+02:33:53.858 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/0/displayed
+02:33:53.861 INFO - Executing: [set window size] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/window/current/size)
+02:33:53.867 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/window/current/size
+02:33:53.869 INFO - Executing: [find element: By.selector: #about-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:53.892 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:53.896 INFO - Executing: [is displayed: 1 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #about-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/1/displayed)
+02:33:53.940 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/1/displayed
+02:33:53.943 INFO - Executing: [find element: By.selector: #about-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:53.960 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:53.962 INFO - Executing: [click: 1 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #about-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/1/click)
+02:33:54.010 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/1/click
+02:33:54.013 INFO - Executing: [find element: By.selector: #about] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.023 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.025 INFO - Executing: [is displayed: 2 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #about]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/2/displayed)
+02:33:54.041 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/2/displayed
+02:33:54.043 INFO - Executing: [find element: By.selector: #work-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.053 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.056 INFO - Executing: [is displayed: 3 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #work-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/3/displayed)
+02:33:54.067 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/3/displayed
+02:33:54.070 INFO - Executing: [find element: By.selector: #work-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.155 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.157 INFO - Executing: [click: 3 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #work-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/3/click)
+02:33:54.220 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/3/click
+02:33:54.222 INFO - Executing: [find element: By.selector: #work] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.232 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.235 INFO - Executing: [is displayed: 4 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #work]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/4/displayed)
+02:33:54.251 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/4/displayed
+02:33:54.253 INFO - Executing: [find element: By.selector: #insights-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.263 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.265 INFO - Executing: [is displayed: 5 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #insights-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/5/displayed)
+02:33:54.277 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/5/displayed
+02:33:54.280 INFO - Executing: [find element: By.selector: #insights-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.305 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.308 INFO - Executing: [click: 5 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #insights-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/5/click)
+02:33:54.356 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/5/click
+02:33:54.358 INFO - Executing: [find element: By.selector: #insights] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.367 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.370 INFO - Executing: [is displayed: 6 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #insights]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/6/displayed)
+02:33:54.381 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/6/displayed
+02:33:54.384 INFO - Executing: [find element: By.selector: #careers-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.393 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.395 INFO - Executing: [is displayed: 7 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #careers-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/7/displayed)
+02:33:54.407 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/7/displayed
+02:33:54.409 INFO - Executing: [find element: By.selector: #careers-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.424 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.426 INFO - Executing: [click: 7 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #careers-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/7/click)
+02:33:54.469 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/7/click
+02:33:54.471 INFO - Executing: [find element: By.selector: #careers] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.481 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.483 INFO - Executing: [is displayed: 8 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #careers]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/8/displayed)
+02:33:54.495 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/8/displayed
+02:33:54.497 INFO - Executing: [find element: By.selector: #contact-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.506 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.509 INFO - Executing: [is displayed: 9 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #contact-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/9/displayed)
+02:33:54.525 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/9/displayed
+02:33:54.527 INFO - Executing: [find element: By.selector: #contact-nav-link a] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.537 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.539 INFO - Executing: [click: 9 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #contact-nav-link a]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/9/click)
+02:33:54.662 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/9/click
+02:33:54.664 INFO - Executing: [find element: By.selector: #contact_page] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element)
+02:33:54.679 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element
+02:33:54.682 INFO - Executing: [is displayed: 10 [[PhantomJSDriver: phantomjs on MAC (7e91fef0-2905-11e4-b4d6-5ff969ac2423)] -> css selector: #contact_page]] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/10/displayed)
+02:33:54.693 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492/element/10/displayed
+02:33:54.696 INFO - Executing: [delete session: 7dd345d7-da9f-4b1c-a5f4-5f9c5a675492] at URL: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492)
+[INFO  - 2014-08-21T07:33:54.707Z] ShutdownReqHand - _handle - About to shutdown
+02:33:55.260 INFO - Done: /session/7dd345d7-da9f-4b1c-a5f4-5f9c5a675492
+02:33:55.270 INFO - Shutting down...
