@@ -1,4 +1,5 @@
-nightwatch-phantom
-==================
+To install: `npm install`
 
-Nightwatch baked together with phantomJS.
+To run with phantomJS standalone: `node nightwatch-phantom.js`
+
+To run with standalone selenium server: `node nightwatch -c settings.js`

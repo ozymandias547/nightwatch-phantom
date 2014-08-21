@@ -1,0 +1,36 @@
+{
+  "src_folders" : ["tests"],
+  "output_folder" : "reports/junit",
+  "custom_commands_path" : "commands",
+
+  "selenium" : {
+    "start_process" : false,
+    "server_path" : "",
+    "log_path" : "",
+    "host" : "127.0.0.1",
+    "port" :  "4444"  
+  },
+  
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://www.isobar.com",
+      "selenium_port"  :  "4444",
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "firefox_profile": false,
+      "chrome_driver": "",
+      "ie_driver": "",
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "reports/screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      },
+      "output": true,
+      "exclude": ["post-pages-user", "breakpoints"]
+    }
+  }
+}
